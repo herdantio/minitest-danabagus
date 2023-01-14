@@ -12,7 +12,7 @@ function isApaBole(num) {
 
 function main() {
     let str = ''
-    for (let index = 1; index <= 35; index++){
+    for (let index = 1; index <= 100; index++){
         str += isApaBole(index) + ' '
     }    
     console.log(str)
